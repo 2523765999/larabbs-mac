@@ -11,14 +11,12 @@
 @import '~@fortawesome/fontawesome-free/scss/brands';
 
 /* universal */
-
 body {
   font-family: Helvetica, "Microsoft YaHei", Arial, sans-serif;
   font-size: 14px;
 }
 
 /* header */
-
 .navbar-static-top {
   border-color: #e7e7e7;
   background-color: #fff;
@@ -41,24 +39,21 @@ body {
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #000;
-
-  .container {
-    padding-right: 15px;
-    padding-left: 15px;
-
-    p {
-      margin: 19px 0;
-      color: #c1c1c1;
-
-      a {
-        color: inherit;
-      }
-    }
-  }
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          /* Set the fixed height of the footer here */
+          height: 60px;
+          background-color: #000;
+          .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            p {
+              margin: 19px 0;
+              color: #c1c1c1;
+              a {
+                color: inherit;
+              }
+            }
+          }
 }
